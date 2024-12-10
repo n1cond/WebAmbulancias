@@ -1,0 +1,30 @@
+body {
+    flex-direction:column;
+}
+
+header {
+    /* height: 10rem; */
+    width: 100%;
+    padding: 1rem;
+    flex-direction: row;
+}
+
+    header img {
+        max-height: 9rem;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header div {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+.nav-section {
+    flex-direction:column;
+    width: 100%;
+}
+
+section {
+}

@@ -1,0 +1,192 @@
+.container {
+    background: #24B;
+    color: #DDDDDD;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.divLista {
+    background: #DDD;
+    border: black;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 10px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.divLista p {
+    width: 20%;
+}
+
+.container h1 {
+    font-size: 18px;
+}
+
+.container h2 {
+    font-size: 18px;
+    color: green;
+}
+
+.divLista button {
+    padding: -2px 0;
+}
+
+.standardForm {
+    background: rgb(112,112,112);
+    background: rgba(224,224,224,0.5);
+    margin: auto;
+    /* height: auto; */
+    min-height: 5rem;
+    box-shadow: rgba(0,0,0,0.4) 10px 10px 10px;
+    border-radius: 1.5rem 0 1.5rem 1.5rem;
+    border: 0.1rem solid white;
+    width: 75%;
+    /* min-width: 27rem; */
+    max-width: 30rem;
+}
+
+.Cform {
+    padding: .5rem 7%;
+    width: 100%;
+}
+
+    .Cform label {
+        display: inline-block;
+        width: 50%;
+        text-align: right;
+        padding-right: 2rem;
+    }
+
+    .Cform input {
+        display: inline-block;
+        height: 1.5rem;
+        width: 50%;
+    }
+
+    .Cform select {
+        display: inline-block;
+        height: 1.5rem;
+        width: 50%;
+    }
+
+    .Cform a {
+        margin: 1rem;
+        display: inline-block;
+    }
+
+    .Cform p {
+        display: inline-block;
+    }
+
+    .Cform fieldset {
+        /*display: inline-block;*/
+    }
+
+    .Cform fieldset input {
+        width: 30%;
+        height: auto;
+    }
+
+    .Cform fieldset label {
+        font-size: small;
+        align-self: center;
+        text-align: left;
+    }
+.item {
+    margin: .5rem 0;
+}
+
+    .item div {
+        display: inline-block;
+        width: 50%;
+        /* margin: 0; */
+    }
+
+#perfil div {
+    width: 100%;
+}
+
+.Header {
+    /* height: 2rem; */
+    background: #24B;
+    border-radius: 1.5rem 0 0 0;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+    .Header label {
+        width: 80%;
+        display: inline-block;
+        text-align: left;
+        padding-left: 2.5rem;
+        margin: .5rem 5%;
+        color: #DDD;
+    }
+
+    .Header img {
+        height: 1.5rem;
+        display: inline-block;
+        margin: .25rem;
+        border-radius: 17%;
+    }
+
+.Footer {
+    display: inline-flex;
+    width: 100%;
+    padding: .3rem 0;
+    background: rgb(34,68, 187);
+    background: rgba(34, 68, 187, 0.8);
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.footerDiv {
+    display: inline-block;
+    width: 50%;
+}
+
+.Submit, .Reset {
+    max-width: 10rem;
+    /*width: webkit-fill-available;*/
+}
+
+.button {
+    background-color: #DEF;
+    border-color: deepskyblue;
+    border-width: thin;
+    border-radius: .3rem;
+    display: inline-block;
+    margin-top: .6rem;
+    padding: .2rem;
+    width: 90%;
+    max-width: 12.5rem;
+}
+
+.left {
+    text-align: left;
+    padding-left: 7%;
+}
+
+.right {
+    text-align: right;
+    padding-right: 7%;
+}
+
+.altSelect {
+    background-color: rgb(196,196,196);
+    background-color: rgba(224,224,224,0.8);
+}
+
+.profImg {
+    object-fit: cover;
+    height: 3.8rem;
+    width: 3.8rem;
+    border-radius: 50%;
+    border-style: ridge;
+    margin-top: .2rem;
+    align-self: center;
+}

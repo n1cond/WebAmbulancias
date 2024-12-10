@@ -1,0 +1,73 @@
+nav {
+    background: #24B;
+    padding: .5rem;
+    text-align: left;
+    color: #ddd;
+    /*display: inline-flex;*/
+}
+
+#divLogin {
+    text-align: right;
+    margin: -.2rem .3rem -.2rem -.2rem;
+}
+
+.Login {
+    padding: .2rem 1.5rem;
+    background: #ddd;
+    color: #24B;
+    border-radius: .2rem;
+    font-weight: bold;
+}
+
+    .Login:hover {
+        color: #ddd;
+        background: #35b
+    }
+        .Login a {
+            padding: .2rem 1.5rem;
+            background: #ddd;
+            color: #24B;
+            border-radius: .2rem;
+            font-weight: bold;
+        }
+        .Login a:hover {
+            color: #ddd;
+            background: #35b
+        }
+
+    /*Opciones en el nav*/
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+        /*Contenedor de opción en el nav*/
+        nav ul li {
+            float: left;
+            margin-left: .2rem;
+        }
+            /*Menu*/
+            nav ul li div {
+                display: none;
+                position: absolute;
+                background-color: #24B;
+                padding: 0.2rem;
+                padding-top: .5rem;
+                z-index:100;
+            }
+
+                nav ul li div a {
+                    display: block;
+                }
+
+            nav ul li:hover div {
+                display: block;
+            }
+
+            nav ul li a {
+                padding: .2rem .8rem;
+            }
+
+                nav ul li a:hover {
+                    background-color: #35b;
+                }
